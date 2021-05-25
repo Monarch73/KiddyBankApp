@@ -1,0 +1,7 @@
+{
+  "name": "KiddyBankApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
