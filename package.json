@@ -23,7 +23,10 @@
     "@capacitor/core": "3.0.0",
     "@capacitor/haptics": "1.0.0",
     "@capacitor/keyboard": "1.0.0",
+    "@ionic-native/bluetooth-serial": "^5.33.0",
+    "@ionic-native/core": "^5.1.0",
     "@ionic/angular": "^5.5.2",
+    "cordova-plugin-bluetooth-serial": "^0.4.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
