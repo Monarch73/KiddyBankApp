@@ -16,6 +16,9 @@
 
   <div id="container">
     <strong class="capitalize">{{ folder }}</strong>
+    <button (click)="aktualisieren()">aktualisieren</button>
+    <strong class="capitalize">{{ this.btStatus }}</strong>
+    <button (click)="sendTest()">TestSend</button>
     <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
 </ion-content>

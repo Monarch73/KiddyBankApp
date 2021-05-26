@@ -29,5 +29,5 @@ npm-debug.log*
 /platforms
 /plugins
 /www
-/Android
-
+/android
+!/android/app/src/main/res/xml/config.xml
