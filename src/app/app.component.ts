@@ -9,7 +9,7 @@ export class AppComponent {
 
 
   public appPages = [
-    { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
+    { title: 'Test', url: '/folder/Inbox', icon: 'add' },
     { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
     { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
     { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
@@ -19,6 +19,6 @@ export class AppComponent {
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor( private store: KidstoreService ) { }
 
-  
+
 
 }
